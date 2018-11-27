@@ -441,6 +441,13 @@ class SwipeActionView : FrameLayout {
     fun moveToOriginalPosition() {
         moveToOriginalPosition(0)
     }
+    
+    /**
+     * Close view panel instantly.
+     */
+    fun closePanel() {
+        container.setTranslationX(0);
+    }
 
     /**
      * Move the view to its original position.
