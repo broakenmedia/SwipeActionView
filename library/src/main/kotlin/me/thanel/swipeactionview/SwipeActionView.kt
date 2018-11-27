@@ -446,7 +446,7 @@ class SwipeActionView : FrameLayout {
      * Close view panel instantly.
      */
     fun closePanel() {
-        container.setTranslationX(0);
+        container.setTranslationX(0f);
     }
 
     /**
