@@ -97,7 +97,7 @@ class SwipeActionView : FrameLayout {
      * The percentage of the [maxLeftSwipeDistance] or [maxRightSwipeDistance] after which swipe
      * callbacks can can be executed.
      */
-    private val minActivationDistanceRatio = 0.8f
+    private val minActivationDistanceRatio = 0.3f
 
     /**
      * Ripple displayed after performing swipe left gesture.
